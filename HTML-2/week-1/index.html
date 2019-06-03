@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Мяндекс.Мурркет</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <h1>Мяндекс <span>Мурркет</span></h1>
+            </div>
+            <div class="search">
+                <form action="#">
+                    <input class="search__input" type="text" placeholder="Найдите любые товары">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <label class="controls">Посмотреть</label>
+        <input type="radio" id="tile" class="tile" checked="checked" name="q" value="tile">
+        <label for="tile">Плитка</label>
+        <input type="radio" id="list" class="list" name="q" value="list">
+        <label for="list">Список</label>
+        <div class="container">
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/1.jpg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик миииииииииииииииииииииииии</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-4" type="radio" name="reviewStars"/>
+                            <label title="очень добрый и ласковый" for="star-4"></label>
+    
+                            <input class="star-3" id="star-3" type="radio" name="reviewStars"/>
+                            <label title="добрый и милый" for="star-3"></label>
+    
+                            <input class="star-2" id="star-2" type="radio" name="reviewStars"/>
+                            <label title="добрый" for="star-2"></label>
+    
+                            <input class="star-1" id="star-1" type="radio" name="reviewStars"/>
+                            <label title="необщительный" for="star-1"></label>
+    
+                            <input class="star-0" id="star-0" type="radio" name="reviewStars"/>
+                            <label title="злой" for="star-0"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Офигенный котенок,берите
+                            не пожалеете, умеет все, 
+                            что хотите. Офигенный котенок,берите
+                            не пожалеете, умеет все, 
+                            что хотите. Офигенный котенок,берите
+                            не пожалеете, умеет все, 
+                            что хотите.
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/2.jpg" alt="cat-02">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик красавчик</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-5" type="radio" name="reviewStars1"/>
+                            <label title="добрый и милый и ласковый" for="star-5"></label>
+    
+                            <input class="star-3" id="star-6" type="radio" name="reviewStars1"/>
+                            <label title="добрый и милый" for="star-6"></label>
+    
+                            <input class="star-2" id="star-7" type="radio" name="reviewStars1"/>
+                            <label title="добрый" for="star-7"></label>
+    
+                            <input class="star-1" id="star-8" type="radio" name="reviewStars1"/>
+                            <label title="необщительный" for="star-8"></label>
+    
+                            <input class="star-0" id="star-9" type="radio" name="reviewStars1"/>
+                            <label title="злой" for="star-9"></label>
+                        </div>
+                        <div class="card__price">
+                            <span>4000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        <p>Офигенный котенок,берите
+                            не пожалеете, умеет все, 
+                            что хотите.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/3.jpg" alt="cat-03">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик умница</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-10" type="radio" name="reviewStars2"/>
+                            <label title="добрый и милый и ласковый" for="star-10"></label>
+    
+                            <input class="star-3" id="star-11" type="radio" name="reviewStars2"/>
+                            <label title="добрый и милый" for="star-11"></label>
+    
+                            <input class="star-2" id="star-12" type="radio" name="reviewStars2"/>
+                            <label title="добрый" for="star-12"></label>
+    
+                            <input class="star-1" id="star-13" type="radio" name="reviewStars2"/>
+                            <label title="необщительный" for="star-13"></label>
+    
+                            <input class="star-0" id="star-14" type="radio" name="reviewStars2"/>
+                            <label title="злой" for="star-14"></label>
+                        </div>
+                        <div class="card__price">
+                            <span>4000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        <p>Котенок умница, с ним у
+                             вас не будет никаких хлопот,
+                              ведь он умница.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/4.jpg" alt="cat-04">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик рыжик</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-15" type="radio" name="reviewStars3"/>
+                            <label title="добрый и милый и ласковый" for="star-15"></label>
+    
+                            <input class="star-3" id="star-16" type="radio" name="reviewStars16"/>
+                            <label title="добрый и милый" for="star-3"></label>
+    
+                            <input class="star-2" id="star-17" type="radio" name="reviewStars3"/>
+                            <label title="добрый" for="star-17"></label>
+    
+                            <input class="star-1" id="star-18" type="radio" name="reviewStars3"/>
+                            <label title="необщительный" for="star-18"></label>
+    
+                            <input class="star-0" id="star-19" type="radio" name="reviewStars3"/>
+                            <label title="злой" for="star-19"></label>
+                        </div>
+                        <div class="card__price">
+                            <span>4000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        <p>Ну кому не нравятся рыжие котики,
+                             берем, не стесняемся.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/5.jpg" alt="cat-05">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик бухарик</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-20" type="radio" name="reviewStars4"/>
+                            <label title="добрый и милый и ласковый" for="star-20"></label>
+    
+                            <input class="star-3" id="star-21" type="radio" name="reviewStars4"/>
+                            <label title="добрый и милый" for="star-21"></label>
+    
+                            <input class="star-2" id="star-22" type="radio" name="reviewStars4"/>
+                            <label title="добрый" for="star-22"></label>
+    
+                            <input class="star-1" id="star-23" type="radio" name="reviewStar4"/>
+                            <label title="необщительный" for="star-23"></label>
+    
+                            <input class="star-0" id="star-24" type="radio" name="reviewStars4"/>
+                            <label title="злой" for="star-24"></label>
+                        </div>
+                        <div class="card__price">
+                            <span>4000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        <p>Если у вас проблемы, он поможет
+                             вам с ними справится, составит компанию.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/11.jpeg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик подсолнух</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-25" type="radio" name="reviewStars5"/>
+                            <label title="добрый и милый и ласковый" for="star-25"></label>
+    
+                            <input class="star-3" id="star-26" type="radio" name="reviewStars5"/>
+                            <label title="добрый и милый" for="star-26"></label>
+    
+                            <input class="star-2" id="star-27" type="radio" name="reviewStars5"/>
+                            <label title="добрый" for="star-27"></label>
+    
+                            <input class="star-1" id="star-28" type="radio" name="reviewStars5"/>
+                            <label title="необщительный" for="star-28"></label>
+    
+                            <input class="star-0" id="star-29" type="radio" name="reviewStars5"/>
+                            <label title="злой" for="star-29"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Просто подсолнух.                        
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/13.jpeg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Тройняшки</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-30" type="radio" name="reviewStars6"/>
+                            <label title="добрый и милый и ласковый" for="star-30"></label>
+    
+                            <input class="star-3" id="star-31" type="radio" name="reviewStars6"/>
+                            <label title="добрый и милый" for="star-31"></label>
+    
+                            <input class="star-2" id="star-32" type="radio" name="reviewStars6"/>
+                            <label title="добрый" for="star-32"></label>
+    
+                            <input class="star-1" id="star-33" type="radio" name="reviewStars6"/>
+                            <label title="необщительный" for="star-33"></label>
+    
+                            <input class="star-0" id="star-34" type="radio" name="reviewStars6"/>
+                            <label title="злой" for="star-34"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Это самое милое что вы сегодня видели за день.                        
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/12.jpeg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик соня</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-35" type="radio" name="reviewStars7"/>
+                            <label title="добрый и милый и ласковый" for="star-35"></label>
+    
+                            <input class="star-3" id="star-36" type="radio" name="reviewStars7"/>
+                            <label title="добрый и милый" for="star-36"></label>
+    
+                            <input class="star-2" id="star-37" type="radio" name="reviewStars7"/>
+                            <label title="добрый" for="star-37"></label>
+    
+                            <input class="star-1" id="star-38" type="radio" name="reviewStars7"/>
+                            <label title="необщительный" for="star-38"></label>
+    
+                            <input class="star-0" id="star-39" type="radio" name="reviewStars7"/>
+                            <label title="злой" for="star-39"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Чемпион среди котиков по сну.
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/7.jpg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик обояшка</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-40" type="radio" name="reviewStars8"/>
+                            <label title="добрый и милый и ласковый" for="star-4"></label>
+    
+                            <input class="star-3" id="star-41" type="radio" name="reviewStars8"/>
+                            <label title="добрый и милый" for="star-41"></label>
+    
+                            <input class="star-2" id="star-42" type="radio" name="reviewStars8"/>
+                            <label title="добрый" for="star-42"></label>
+    
+                            <input class="star-1" id="star-43" type="radio" name="reviewStars8"/>
+                            <label title="необщительный" for="star-43"></label>
+    
+                            <input class="star-0" id="star-44" type="radio" name="reviewStars8"/>
+                            <label title="злой" for="star-44"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Просто обояшка.
+                    </div>
+                </div>
+            </div>
+            <div class="goods__card">
+                <div class="card-img">
+                    <img src="img/9.jpg" alt="cat-01">
+                </div>
+                <div class="card__info">
+                    <div class="card__header">
+                        <div class="card__name">
+                            <a href="#" class="card__title">Котик офигивашка</a>
+                        </div>
+                        <div class="card__category">
+                            <a href="#" class="card__cat">Категория</a>
+                        </div>
+                        <div class="reviewStars-input">
+                            <input class="star-4" id="star-45" type="radio" name="reviewStars9"/>
+                            <label title="добрый и милый и ласковый" for="star-4"></label>
+    
+                            <input class="star-3" id="star-46" type="radio" name="reviewStars9"/>
+                            <label title="добрый и милый" for="star-46"></label>
+    
+                            <input class="star-2" id="star-47" type="radio" name="reviewStars9"/>
+                            <label title="добрый" for="star-47"></label>
+    
+                            <input class="star-1" id="star-48" type="radio" name="reviewStars9"/>
+                            <label title="необщительный" for="star-48"></label>
+    
+                            <input class="star-0" id="star-49" type="radio" name="reviewStars9"/>
+                            <label title="злой" for="star-49"></label>
+                        </div>
+                        <div class="card__price">
+                            <span class="price__new">4000 руб.</span>
+                            <span class="price__old">8000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="card__text">
+                        Не знаю что с ним случилось, но он забавный, хоть и офигел от чего-то.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
