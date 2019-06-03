@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бабуленькины котятки</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Бабуленькины котятки</h1>
+    </header>
+    <main>
+        <nav class="menu menu-left">
+            <ul class="menu__list">
+                <li class="categ">
+                    <label for="abyssinia" class="menu__item">Абиссинская</label>
+                </li>
+                <li class="categ">
+                    <label for="british" class="menu__item">Британская</label>
+                </li>
+                <li class="categ">
+                    <label for="russianBlue" class="menu__item">Русская голубая</label>
+                </li>
+                <li class="categ">
+                    <label for="siamese" class="menu__item">Сиамская</label>
+                </li>
+            </ul>
+        </nav>
+        <article class="main">
+            <input id="abyssinia" type="checkbox" class="sort" name="categ">
+            <input id="british" type="checkbox" class="sort" name="categ">
+            <input id="russianBlue" type="checkbox" class="sort" name="categ">
+            <input id="siamese" type="checkbox" class="sort" name="categ">
+            <ul class="cards">
+                <li class="card card-ab" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://farm4.staticflickr.com/3822/12833908543_bbc6bf0e6f_b.jpg" 
+                    alt="абиссинская кошка">
+                </li>
+                <li class="card card-br" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://4lapki.com/wp-content/uploads/2017/01/britanskii-kot1.jpg" alt="британец">
+                </li>
+                <li class="card card-rus" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://kotmurka.ru/wp-content/uploads/2017/03/russkie-golubye_02.jpg" alt="русская">
+                </li>
+                <li class="card card-br" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://20.img.avito.st/1280x960/4590273720.jpg" alt="британец">
+                </li>
+                <li class="card card-si" data-name="Гоша, 4 года">
+                    <img class="card__img" src="http://zveridikie.ru/nature/cats/siamese%20cat.jpg" alt="сиамская">
+                </li>
+                <li class="card card-br" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://4lapki.com/wp-content/uploads/2017/01/britanskii-kot1.jpg" alt="британец">
+                </li>
+                <li class="card card-rus" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://kotmurka.ru/wp-content/uploads/2017/03/russkie-golubye_02.jpg" alt="русская">
+                </li>
+                <li class="card card-si" data-name="Гоша, 4 года">
+                    <img class="card__img" src="https://www.royal-canin.ru/upload/medialibrary/8ec/siam.jpg" alt="сиамская">
+                </li>                
+            </ul>
+        </article>
+        <div class="menu menu-right">
+            <h3 class="menu__title">Рейтинг</h3>
+            <label for="sort">По убыванию</label>
+            <input type="checkbox" id="sort" name="sort">
+            <ul class="menu__list">
+                <li class="rating__item" data-rating="9">
+                    <span class="rating__title">Абиссинская</span>
+                    <div class="rating__gradient">
+                        <div class="rating__line rating__line--9"></div>
+                        <div class="rating__number">9</div>
+                    </div>
+                </li>
+                <li class="rating__item" data-rating="8">
+                    <span class="rating__title">Британская</span>
+                    <div class="rating__gradient">
+                        <div class="rating__line rating__line--8"></div>
+                        <div class="rating__number">8</div>
+                    </div>
+                </li>
+                <li class="rating__item" data-rating="10">
+                    <span class="rating__title">Русская голубая</span>
+                    <div class="rating__gradient">
+                        <div class="rating__line rating__line--10"></div>
+                        <div class="rating__number">10</div>
+                    </div>
+                </li>
+                <li class="rating__item" data-rating="4">
+                    <span class="rating__title">Сиамская</span>
+                    <div class="rating__gradient">
+                        <div class="rating__line rating__line--4"></div>
+                        <div class="rating__number">4</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div>&copy; ООО Бабуленькины котята, 2019</div>
+        <adress>Наш адрес: улица Котовая, д.5</adress>
+    </footer>
+</body>
+</html>
